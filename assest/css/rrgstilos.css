@@ -1,0 +1,95 @@
+
+footer{
+    //    background: hsl(264,34%,30);
+    background: hsl(209, 82%, 57%);
+    clear:both;
+    color:hsl(0,0%,100%);
+    padding: 20px 0;
+    text-align: center;
+    font-size: 13px;   
+}
+footer a:hover{
+    color: hsl(0,0%,100%);
+    text-decoration: underline;
+
+}
+
+.fileUpload {
+	position: relative;
+	overflow: hidden;
+	margin: 10px;
+}
+.fileUpload input.upload {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+
+
+.devolver{    
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    background: white; 
+    position: absolute;
+       right: 100%;
+       top: -5%;
+}
+.relativo{
+    position: relative;    
+}
+.modalload {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('images/loading51b.gif') 
+                50% 50% 
+                no-repeat;
+}
+
+/* Ocultamos el input file */
+input[type="file"]{
+z-index: 999;
+line-height: 0;
+font-size: 50px;
+position: absolute;
+opacity: 0;
+filter: alpha(opacity = 0);-ms-filter: "alpha(opacity=0)";
+margin: 0;
+padding:0;
+left:0;
+}
+
+/* Al label lo convertimos en "boton"
+(en apariencia) */ 
+.filestyle{
+text-align: center;
+background-color: #8E789B;
+color: #fff;
+display: block;
+border-radius: 3px;
+width: 190px;
+height: 30px;
+font-size: 18px;
+float: left;
+line-height: 1.6em;
+}
+
+
+.multiselect-container>li>a>label {
+  padding: 4px 20px 3px 20px;
+}
+.ui-front {
+    z-index: 9999;
+  }
