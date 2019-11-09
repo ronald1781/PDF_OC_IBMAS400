@@ -1,6 +1,6 @@
 <?php
 $usuario='WEBUSERMYM';
-$password='web2014';
+$password='';
 $server='';
 $fp = fopen("./server.txt", "r");
 
